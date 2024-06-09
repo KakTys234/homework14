@@ -2,6 +2,7 @@ class House:
     def __init__(self, nameHouse, numberOfFloors):
         self.nameHouse = nameHouse
         self.numberOfFloors = numberOfFloors
+        self.setNewNumberOfFloors()
 
     def setNewNumberOfFloors(self):
         print(f'Название: {self.nameHouse}, Этажей: {self.numberOfFloors}')
